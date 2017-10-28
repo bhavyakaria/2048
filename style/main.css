@@ -48,7 +48,9 @@ h1.title {
     opacity: 0; } }
 .scores-container {
   float: right;
-  text-align: right; }
+  text-align: right; 
+  padding-top: 25px;
+}
 
 .score-container, .best-container {
   position: relative;
@@ -138,7 +140,7 @@ hr {
   100% {
     opacity: 1; } }
 .game-container {
-  margin-top: 40px;
+  margin-top: 20px;
   position: relative;
   padding: 15px;
   cursor: default;
@@ -513,9 +515,17 @@ hr {
   clear: both; }
 
 .game-intro {
-  float: left;
   line-height: 42px;
-  margin-bottom: 0; }
+  margin-bottom: 0; 
+}
+
+.above-game a {
+  float: left;
+}
+
+input{
+  width: 50px;
+}
 
 .restart-button {
   display: inline-block;
@@ -528,7 +538,10 @@ hr {
   line-height: 42px;
   display: block;
   text-align: center;
-  float: right; }
+  float: 2;
+  margin: 0 8px 0 8px; 
+  width: 110px;
+}
 
 .game-explanation {
   margin-top: 50px; }
@@ -571,7 +584,7 @@ hr {
     margin-top: 2px; }
 
   .game-container {
-    margin-top: 17px;
+    margin-top: 20px;
     position: relative;
     padding: 10px;
     cursor: default;
