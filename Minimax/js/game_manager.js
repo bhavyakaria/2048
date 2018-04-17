@@ -529,7 +529,7 @@ this.minMax = function(matrix, move, depth){
     if( self.isEqualMatrix(rmat,matrix))
       myMove = (Math.floor(Math.random()*100))%4;
     self.move(myMove);
-  }, 100);
+  }, 1);
   /**********************************************/
   /**********************************************/
   /*                AI CODE END                 */
