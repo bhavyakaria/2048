@@ -1,3 +1,12 @@
+# Puzzel-Solver-2048
+A bot which can play the game 2048 and reach the 2048 goal tile.
+
+## Algorithms applied:
+ 1. Minimax Algorithm
+ 2. Monte Carlo Search Algorithm
+
+
+
 # 2048
 A small clone of [1024](https://play.google.com/store/apps/details?id=com.veewo.a1024), based on [Saming's 2048](http://saming.fr/p/2048/) (also a clone).
 
